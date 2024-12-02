@@ -1,0 +1,11 @@
+{
+  "Name": "GinRat2024", 
+  "Authors": "G Becq et al. see ref 0", 
+  "Description": "The reference anatomical template is a copy of the Tohoku template from the work of Valdés-Hernández et al. (see ref 1), adapted to the resolution of our study and given in a RAS coordinates system (see ref 0). The orientation is RAS. The origin is at Bregma (0, 0, 0). ", 
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1016/j.neuroimage.2020.116945", 
+    "https://doi.org/10.3389/fninf.2011.00026"],
+  "Species": "Rattus norvegicus",
+  "Resolution": "0.125 x 0.125 x 0.125 mm^3", 
+  "AnatomicalLandmarkCoordinates": {"Bregma": [0, 0, 0]}
+}

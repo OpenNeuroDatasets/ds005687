@@ -1,0 +1,13 @@
+{
+    "Name": "pipeline-3", 
+    "DatasetType": "derivative", 
+    "BIDSVersion": "1.9.0",
+    "GeneratedBy": [
+        {
+            "Name": "3", 
+            "Version": "",
+            "Description": "SPM and manual settings described in /code https://doi.org/10.1016/j.neuroimage.2020.116945", 
+            "CodeURL": "", 
+            "Container": ""}], 
+    "DatasetLinks": {"pipeline2": "../pipeline-2"},  
+    "SourceDatasets": [{"URL": "pipeline2"}]}
