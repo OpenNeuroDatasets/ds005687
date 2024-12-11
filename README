@@ -3,10 +3,10 @@
 ## Summary 
 
 The dataset comes from a study on the impact of differents anesthesics on functional connectivity, cerebral perfusion and physiological measures.  
-The study is made on rats during resting state. 
+The study is performed on rats. 
 The dataset contains three types of data from 38 subjects: structural imaging (anat), resting state functional imaging (func) and perfusion (perf). 
-Physiological measures during resting state are also given in `*_physio.tsv.gz` files.  
-Four anesthetics are evaluated. 
+Physiological measures during resting state are also given in files `*_physio.tsv.gz`.  
+Four anesthetics are evaluated and group of dead rats is also tested.  
 
 
 The collection and content of this dataset is described in details in: 
