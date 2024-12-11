@@ -1,8 +1,2 @@
-1.0.0 2024-09-03
- - Initial release. 
- - It took a long time to collect all information, understand organization of Bids and standardization of parameters. This was done also in parallel with other datasets using ieeg, eyetracking and behavioral modalities... 
- - Corrections have also been done to put images in the RAS coordinate system, using new libraries (nibabel, nipy, brkraw...), that where not so simple to use.  There was also some bugs to correct (orthoview in nibabel, and bids parameters extraction from Bruker parameters files in brkraw). 
- - Several changes have also been done to fulfill Bids validation with increasing releases and more control. 
-0.0.1 2021-11-23 
- - Initial creation. Changes the indices of rats according to their dates of recordings. This order is different to the one presented in the article published in NeuroImage. 
-
+1.0.0 2024-12-11
+  - Deposit of the database in openneuro
