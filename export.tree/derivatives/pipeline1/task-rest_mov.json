@@ -1,0 +1,36 @@
+{
+  "SamplingFrequency": 0.5, 
+  "StartTime": 0, 
+  "Columns": [
+    "x", "y", "z", "phi", "ki", "psi"], 
+  "x": {
+    "Name": "x", 
+    "Description": "translation in x coordinate (+x = Right). ", 
+    "Units": "mm"
+  }, 
+  "y": {
+    "Name": "y", 
+    "Description": "translation in y coordinate (+y = Anterior). ", 
+    "Units": "mm"
+  }, 
+  "z": {
+    "Name": "z", 
+    "Description": "translation in y coordinate (+z = Superior). ", 
+    "Units": ""
+  }, 
+  "phi": {
+    "Name": "phi", 
+    "Description": "pitch", 
+    "Units": "rad"
+  }, 
+  "ki": {
+    "Name": "ki", 
+    "Description": "raw", 
+    "Units": "rad"
+  }, 
+  "psi": {
+    "Name": "psi", 
+    "Description": "yaw", 
+    "Units": "rad"
+  }
+}

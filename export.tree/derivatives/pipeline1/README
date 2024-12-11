@@ -1,0 +1,53 @@
+The `pipeline1` dataset corresponds to the result of the preprocessing that transforms all recordings into the Tohoku template and coregister rs-fMRIs. 
+
+Matlab templates using SPM 12.0 are given in /code. 
+A multiplication by 10 is done for using SPM algorithms. 
+A renormalisation using a division by 10 to recover dimensions in mm is done. 
+All affines are in mm in a RAS coordinate system. 
+
+The perf suffix is used for the cerebral blood flow perfusion computed according to the algorithms described in 
+
+HIRSCHLER, Lydiane, DEBACKER, Clément S., VOIRON, Jérôme, et al. Interpulse phase corrections for unbalanced pseudo‐continuous arterial spin labeling at high magnetic field. Magnetic Resonance in Medicine, 2018, vol. 79, no 3, p. 1314-1324. 
+@article{hirschler2018interpulse,
+  title={Interpulse phase corrections for unbalanced pseudo-continuous arterial spin labeling at high magnetic field},
+  author={Hirschler, Lydiane and Debacker, Cl{\'e}ment S and Voiron, J{\'e}r{\^o}me and K{\"o}hler, Sascha and Warnking, Jan M and Barbier, Emmanuel L},
+  journal={Magnetic Resonance in Medicine},
+  volume={79},
+  number={3},
+  pages={1314--1324},
+  year={2018},
+  publisher={Wiley Online Library},
+  doi={https://doi.org/10.1002/mrm.26767}
+}
+
+combining run-1 and run-2 if available or using only one run. 
+
+
+- - -
+
+The collection and content of this dataset is described in details in: 
+
+BECQ, G.J.-P.C., HABET, T., COLLOMB, N., et al. Functional connectivity is preserved but reorganized across several anesthetic regimes. NeuroImage, 2020, p. 116945-116945. 
+
+@article{Becq2020Functional, title={Functional connectivity is preserved but reorganized across several anesthetic regimes", author={Becq, Guillaume J.-P. C. and Habet, Tarik and Collomb, Nora and Faucher, Margaux and Delon-Martin, Chantal and Coizet, Véronique and Achard, Sophie and Barbier, Emmanuel L.}, journal={NeuroImage}, publisher={Elsevier}, volume={219}, pages={116945}, year={2020}, doi={https://doi.org/10.1016/j.neuroimage.2020.116945} } 
+
+
+## Movement evaluation during resting state fMRI
+
+Coregistration outputs, known as the [realignment parameters](https://www.fil.ion.ucl.ac.uk/spm/docs/tutorials/fmri/event/preprocessing/#realignment), are given in `sub-<label>/func/sub-<label>_task-rest_mov.tsv`. 
+At this time there is no consensus in BIDS about the name of the files containing motion parameters (see also BEP012). 
+These files can be used to evaluate movements from an initial volume chosen for reference (see publication for details). 
+Measures in x, y and z that are given in the mov files should be divided by 10 to get values in mm. 
+Indeed, metrics have been multiplied by 10 during preprocessing step 0 to be compatible with SPM algorithms developped for human acquisitions. 
+Also, the initial referential system was +x right, +y anterior, +z superior and the values given here have not been corrected (the pipeline have not been revised with images in the conventional coordinate map system used in the corrected Gin atlas). 
+
+## Gin atlas coordinate system
+
+Finally, the images have been transformed into the 2024 Gin atlas, obtained from the Tohoku atlas, with a conventional coordinate map system RAS with origin at Bregma.
+Affines in all volumes are set back to natural mm, avoiding SPM artefacts - values needing to be multiplied by 10 to be compatible with the processing of human data. 
+
+
+
+
+
+
