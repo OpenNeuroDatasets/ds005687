@@ -1,0 +1,8 @@
+{
+    "Name": "pipeline-2", 
+    "BIDSVersion": "1.9.0",
+    "DatasetType": "derivative", 
+    "ReferencesAndLinks": ["https://doi.org/10.1016/j.neuroimage.2020.116945"], 
+    "GeneratedBy": [{"Name": "2", "Description": "extraction of signals in brain regions"}], 
+    "DatasetLinks": {"pipeline1": "../pipeline-1"}, 
+    "SourceDatasets": [{"URL": "pipeline1"}]}

@@ -1,0 +1,55 @@
+index	name	abbreviation	color	mapping	areaAllen	x	y	z	nVoxels	hemisphere	networkLabel	aggName	aggIndex
+0	Clear Label	0	#000000	6	unassigned	0.182751	-4.61586	-4.45866	1718587	n/a	n/a	0	0
+1	anterior cingulate cortex	ACC	#40A666	8	ACA	0.174295	-1.86619	1.18928	16670	bilateral	acc	Cg1_r, Cg2_r, Cg1_l, Cg2_l	8, 9, 56, 57
+2	Insular cortex right	Ins_r	#219866	8	AI	5.1778	-5.69629	0.94189	11026	right	cor	AID_r, AIP_r, AIV_r, DI_r, GI_r, GIDI_r	1, 2, 3, 10, 16, 17
+3	amygdalopiriform transition area right	APir_r	#33B932	8	COA, PAA, HATA	5.6511	-8.80415	-4.33311	3264	right	cor	APir_r	4
+4	auditory cortex right	AU_r	#019399	8	AUD	6.61987	-4.19655	-4.47931	8781	right	cor	AU1_r, AUD_r, AUV_r	5, 6, 7
+5	entorhinal area right	Ent_r	#32B825	8	ENT	5.91189	-6.14823	-6.44515	18392	right	cor	DIEnt_r, DLEnt_r, Ect_r, MEnt_r, PRh_r, VIEnt_r, PrCx_r, Per35_r, Per36_r, Ent_r, LEnt_r	11, 12, 14, 21, 23, 48, 163, 166, 167, 168, 169
+6	parietal association cortex right	Par_r	#009FAC	8	PTLp	3.9755	-1.17495	-3.89098	4557	right	cor	LPtA_r, MPtA_r, PtPC_r, PtPD_r, PtPR_r	18, 22, 24, 25, 26
+7	primary motor cortex right	M1_r	#1F9D5A	8	MO	2.66263	-1.37909	1.07998	11027	right	cor	M1_r	19
+8	supplementary motor cortex right	M2_r	#1F9D5A	8	MO	1.65696	-1.34616	2.24012	6619	right	cor	M2_r	20
+9	retrosplenial cortex right	RSC_r	#1AA698	8	RSP	1.48113	-1.25932	-5.51635	8222	right	cor	RSD_r, RSGb_r, RSGC_r	27, 28, 29
+10	somatosensory 1 right	S1_r	#188064	8	SS	4.6283	-2.56855	-0.0135468	20647	right	cor	S1_r, S1DZ_r, S1DZ_r, S1FL_r, S1HL_r, S1J_r, S1Sh_r, S1Tr_r, S1ULp_r	30, 32, 33, 34, 35, 36, 37, 38, 39
+11	somatosensory 1 right, barrel field	S1BF_r	#188064	8	SS	5.47192	-2.63757	-1.99766	9249	right	cor	S1BF_r	31
+12	somatosensory 2 right	S2_r	#188064	8	SS	6.24313	-5.13039	-0.775793	2365	right	cor	S2_r	40
+13	temporal cortex right, association area	TeA_r	#15B0B3	8	TEa	6.07743	-3.51113	-7.05579	1572	right	cor	TeA_r	41
+14	primary visual cortex right	V1_r	#08858C	8	VISp	3.95681	-1.29563	-6.54927	9100	right	cor	V1_r, V1B_r, V1M_r	42, 43, 44
+15	secondary visual cortex  right	V2_r	#08858C	8	VIS	4.07549	-1.5123	-5.86678	4350	right	cor	V2L_r, V2ML_r, V2MM_r	45,46,47
+16	Insular cortex left	Ins_l	#219866	8	AI	-4.98587	-5.61875	1.16289	9002	left	cor	AID_l, AIP_l, AIV_l, DI_l, GI_l, GIDI_l	49, 50, 51, 58, 59, 60
+17	amygdalopiriform transition area left	APir_l	#33B932	8	COA, PAA, HATA	-5.69033	-8.56072	-4.30786	3411	left	cor	APir_l	52
+18	auditory cortex left	AU_l	#019399	8	AUD	-6.50367	-3.85969	-4.47173	9338	left	cor	AU1_l, AUD_l, AUV_l	53, 54, 55
+19	entorhinal area left	Ent_l	#32B825	8	ENT	-5.89653	-5.8393	-6.55206	17859	left	cor	DIEnt_l, DLEnt_l, Ect_l, MEnt_l, PRh_l, VIEnt_l, PrCx_l, Per35_l, Per36_l, Ent_l, LEnt_l	59, 60, 62, 69, 71, 96, 237, 240, 241, 242, 243
+20	parietal association cortex left	Par_l	#009FAC	8	PTLp	-3.60419	-0.94204	-3.88412	4557	left	cor	LPtA_l, MPtA_l, PtPC_l, PtPD_l, PtPR_l	66, 70, 72, 73, 74
+21	primary motor cortex left	M1_l	#1F9D5A	8	MO	-2.3278	-1.28196	1.25096	11160	left	cor	M1_l	67
+22	supplementary motor cortex left	M2_l	#1F9D5A	8	MO	-1.34004	-1.25942	2.19818	5708	left	cor	M2_l	68
+23	retrosplenial cortex left	RSC_l	#1AA698	8	RSP	-1.06766	-1.21444	-5.34379	7527	left	cor	RSD_l, RSGb_l, RSGC_l	75, 76, 77
+24	somatosensory 1 left	S1_l	#188064	8	SS	-4.41578	-2.33698	0.0637498	21813	left	cor	S1_l, S1DZ_l, S1DZ_l, S1FL_l, S1HL_l, S1J_l, S1Sh_l, S1Tr_l, S1ULp_l	78, 80, 81, 82, 83, 84, 85, 86, 87
+25	somatosensory 1 left, barrel field	S1BF_l	#188064	8	SS	-5.23081	-2.2726	-1.98406	9578	left	cor	S1BF_l	79
+26	somatosensory 2 left	S2_l	#188064	8	SS	-6.26684	-4.83088	-0.75587	2547	left	cor	S2_l	88
+27	temporal cortex left, association area	TeA_l	#15B0B3	8	TEa	-5.90646	-3.16306	-7.09343	1731	left	cor	TeA_l	89
+28	primary visual cortex left	V1_l	#08858C	8	VISp	-3.61231	-1.06194	-6.55552	9439	left	cor	V1_l, V1B_l, V1M_l	90, 91, 92
+29	secondary visual cortex left	V2_l	#08858C	8	VIS	-3.74619	-1.28347	-5.87163	4276	left	cor	V2L_l, V2ML_l, V2MM_l	93, 94, 95
+30	caudate-putamen striatum right	CPu_r	#98D6F9	9	STR	2.9536	-5.64725	-0.0750681	23113	right	sub	CPu_r	104
+31	basal ganglia right	BG_r	#8599CC	9	PAL	2.61236	-7.10985	-3.0771	3548	right	sub	SN_r, STh_r, GP_r, EP_r	98, 99, 105, 106
+32	thalamus right	Th_r	#FF7080	9	TH	1.95299	-5.78808	-3.19203	16544	right	sub	Th_r	113
+33	septal region right	Sep_r	#90CBED	9	LSX	0.61524	-5.0049	0.000657591	2167	right	sub	Sep_r	114
+34	hypothalamic region right	H_r	#E64438	9	HY	0.588988	-8.6216	-2.46094	2613	right	sub	H_r	121
+35	superior colliculus right	DSC_r	#FF7AFF	9	SC	1.44163	-4.35321	-6.26114	6253	right	sub	SuG _r, DpG_r, bsc_r	123, 128, 141
+36	periaqueductal gray right	pag_r	#FF90FF	9	PAG	0.541075	-5.53402	-6.60474	2745	right	sub	pag_r	124
+37	basal forebrain region right	BF_r	#80CDF8	9	ACB, PAL	1.82434	-8.00637	-0.264283	13759	right	sub	BF_r	153
+38	pretectal region right	PT_r	#FF90FF	9	PRT	1.6178	-5.11676	-4.81406	1805	right	sub	PT_r	156
+39	hippocampus right	HIP_r	#7ED04B	9	HIP	3.68057	-4.90232	-4.72797	19137	right	sub	CA3_r, DG_r, CA2_r, CA1_r	157, 158, 159, 160
+40	subiculum right	S_r	#4FC244	9	SUB	3.58472	-4.81923	-6.777	5671	right	sub	S_r, PrS_r, PaS_r	162, 164, 165
+41	caudate-putamen striatum left	CPu_l	#98D6F9	9	STR	-3.1451	-5.21661	-0.115261	22803	left	sub	CPu_l	178
+42	basal ganglia left	BG_l	#8599CC	9	PAL	-2.97104	-6.7112	-3.06622	3238	left	sub	SN_l, STh_l, GP_l, EP_l	172, 173, 179, 180
+43	thalamus left	Th_l	#FF7080	9	TH	-2.01835	-5.61133	-3.19557	18218	left	sub	Th_l	187
+44	septal region left	Sep_l	#90CBED	9	LSX	-0.640176	-4.99332	-0.0035858	2733	left	sub	Sep_l	188
+45	hypothalamic region left	H_l	#E64438	9	HY	-0.836069	-8.50247	-2.44727	4246	left	sub	H_l	195
+46	superior colliculus left	DSC_l	#FF7AFF	9	SC	-1.29994	-4.15828	-6.27461	6465	left	sub	SuG _l, DpG_l, bsc_l	197, 202, 215
+47	periaqueductal gray left	pag_l	#FF90FF	9	PAG	-0.509864	-5.68045	-6.31349	3794	left	sub	pag_l	198
+48	basal forebrain region left	BF_l	#80CDF8	9	ACB, PAL	-2.14155	-7.69572	-0.0407497	17694	left	sub	BF_l	227
+49	pretectal region left	PT_l	#FF90FF	9	PRT	-1.70615	-4.88035	-4.84377	1706	left	sub	PT_l	230
+50	hippocampus left	HIP_l	#7ED04B	9	HIP	-3.76155	-4.53319	-4.75278	18981	left	sub	CA3_l, DG_l, CA2_l, CA1_l	231, 232, 233, 234
+51	subiculum left	S_l	#4FC244	9	SUB	-3.73044	-4.61282	-6.74016	5962	left	sub	S_l, PrS_l, PaS_l	236, 238, 239
+52	fasciculum	f	#CCCCCC	6	fiber tracts	-0.0168642	-4.84889	-3.14256	59834	bilateral	other	cfp_r, MI_r, 7n_r, aca_r, acp_r, vhc_r, 2n_r, opt_r, csc_r, f_r, mt_r, cst_r, g7_r, fi_r, fr_r, sm_r, st_r, pc_r, cc_r, cic_r, asc7_r, ac_r, sp5_r, mcp_r, tfp_r, hbc_r, sox_r, FC_r, cfp_l, MI_l, 7n_l, aca_l, acp_l, vhc_l, 2n_l, opt_l, csc_l, f_l, mt_l, cst_l, g7_l, fi_l, fr_l, sm_l, st_l, pc_l, cc_l, cic_l, asc7_l, ac_l, sp5_l, mcp_l, tfp_l, hbc_l, sox_l, FC_l, cfp_l, BST_l, BST_r	97, 108, 109, 110, 111, 112, 115, 116, 119, 125, 126, 127, 130, 132, 133, 134, 135, 136, 140, 142, 144, 145, 147, 149, 150, 151, 154, 161, 171, 182, 183, 184, 185, 186, 189, 190, 193, 199, 200, 201, 204, 206, 207, 208, 209, 210, 214, 216, 218, 219, 221, 223, 224, 225, 228, 235, 229, 155
+53	not available	n	#000000	6	unassigned	-0.133733	-5.84086	-7.66013	261557	bilateral	other	IC_r, IC_l, Cb_m_r, Cb_g_r, alv_r, icp_r, VS_r, Pi_r, IE_r, BS_r, PVG_r, Pn_r, GIA_r, GI_r, IP_r, SPN_r, SM_r, Fr3_r, FrA_r, DLO_r, OB_r, PB_r, Cb_m_l, Cb_g_l, alv_l, icp_l, VS_l, Pi_l, IE_l, BS_l, PVG_l, Pn_l, GIA_l, GI_l, IP_l, SPN_l, SM_l, Fr3_l, FrA_l, DLO_l, OB_l, PB_l	122, 196, 13, 15, 148, 61, 63, 222, 139, 213, 170, 244, 100, 101, 102, 103, 107, 117, 118, 120, 129, 131, 137, 138, 143, 146, 152, 174, 175, 176, 177, 181, 191, 192, 194, 203, 205, 211, 212, 217, 220, 226
