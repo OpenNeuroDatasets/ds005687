@@ -1,8 +1,0 @@
-# derivatives
-
-- atlases: atlas used in the study.
-- pipeline-1: transformations toward template and atlas space. 
-- pipeline-2: extraction of signals from brain regions. 
-- pipeline-3: data analysis oriented towards publication in neuroimage. 
-
-
